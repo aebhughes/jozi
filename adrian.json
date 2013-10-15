@@ -1,0 +1,927 @@
+[
+{
+   "pk": 1, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "permission", 
+      "name": "permission", 
+      "app_label": "auth"
+   }
+},
+{
+   "pk": 2, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "group", 
+      "name": "group", 
+      "app_label": "auth"
+   }
+},
+{
+   "pk": 3, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "user", 
+      "name": "user", 
+      "app_label": "auth"
+   }
+},
+{
+   "pk": 4, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "contenttype", 
+      "name": "content type", 
+      "app_label": "contenttypes"
+   }
+},
+{
+   "pk": 5, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "session", 
+      "name": "session", 
+      "app_label": "sessions"
+   }
+},
+{
+   "pk": 6, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "site", 
+      "name": "site", 
+      "app_label": "sites"
+   }
+},
+{
+   "pk": 7, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "logentry", 
+      "name": "log entry", 
+      "app_label": "admin"
+   }
+},
+{
+   "pk": 8, 
+   "model": "contenttypes.contenttype", 
+   "fields": {
+      "model": "post", 
+      "name": "post", 
+      "app_label": "blog"
+   }
+},
+{
+   "pk": "15enby23z8zw9mdvgynqqbz8w3lszu8f", 
+   "model": "sessions.session", 
+   "fields": {
+      "expire_date": "2013-10-24T15:35:14.656Z", 
+      "session_data": "NmE3NGRjZjdmZjA0NDljY2JjYmM0NGJhODVlZmRiMGQ5NjUzZTI5ZTqAAn1xAS4="
+   }
+},
+{
+   "pk": "2sotplyit121e85ukz4fi0gctairhmng", 
+   "model": "sessions.session", 
+   "fields": {
+      "expire_date": "2013-10-24T15:35:30.402Z", 
+      "session_data": "NmE3NGRjZjdmZjA0NDljY2JjYmM0NGJhODVlZmRiMGQ5NjUzZTI5ZTqAAn1xAS4="
+   }
+},
+{
+   "pk": "bxi3knhp1dg7izfgdl1dw9vshedh3pt1", 
+   "model": "sessions.session", 
+   "fields": {
+      "expire_date": "2013-10-24T15:35:39.552Z", 
+      "session_data": "NmE3NGRjZjdmZjA0NDljY2JjYmM0NGJhODVlZmRiMGQ5NjUzZTI5ZTqAAn1xAS4="
+   }
+},
+{
+   "pk": "on0pjhxjm5ctuqys86na15efdi6jc527", 
+   "model": "sessions.session", 
+   "fields": {
+      "expire_date": "2013-10-24T15:36:51.700Z", 
+      "session_data": "ZGExMTQ5YzZlNGM1NWRmNTFhOTg0MzA1MzFkYWNiYzFjOTY4ZGQzNTqAAn1xAShVEl9hdXRoX3VzZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHEDVQ1fYXV0aF91c2VyX2lkcQRLAXUu"
+   }
+},
+{
+   "pk": 1, 
+   "model": "sites.site", 
+   "fields": {
+      "domain": "example.com", 
+      "name": "example.com"
+   }
+},
+{
+   "pk": 5, 
+   "model": "blog.post", 
+   "fields": {
+      "description": "Twilight IV Open Air Festival", 
+      "title": "Science Frikshun", 
+      "created": "2013-10-10T17:36:43.644Z", 
+      "content": "Teknotribe, Science Frikshun & psy.ology unite once again as UNDERGROUND SOUND to bring you a collaboration of FANTASY & ESCAPISM with a multitude of talent to feast your ears on as we play host to the 4th edition of this epic 2 day festival not to be missed!!!!<br>\r\n<br>\r\nFeaturing: 3 Massive Int Acts and over 40 of South African top Psy Trance, Drum & Bass and Techno djs / live acts on 3 stages at the beautiful hornbill lodge in Magaliesburg with awesome camping alongside a river.", 
+      "exDate": "2013-10-26", 
+      "published": true, 
+      "slug": "science-frikshun", 
+      "location": "HORNBILL LODGE, MAGALIESBURG"
+   }
+},
+{
+   "pk": 7, 
+   "model": "blog.post", 
+   "fields": {
+      "description": " ", 
+      "title": "DJ SHUGGA", 
+      "created": "2013-10-14T06:59:33.022Z", 
+      "content": "Its been a long time since we had a full package FEMALE DJ! <br>\r\n<br>\r\nWe welcome the Tiger Tiger Durban's 2013 spinoff champion, the talented DJ SHUGGA to Tiger Fourways this Student night!<br> \r\nShe will blow your mind with her banging beats & quirky personality! <br>\r\nNot a night to miss out on, as she battles the decks with Dean Michael!<br>\r\n <br>\r\n\r\n\r\n<ul>\r\n<li>R25 000 bar tab opens at 8pm</li>\r\n<li>FREE entry before 10pm</li>\r\n<li>Girls over 18 and Gents over 19</li>\r\n</ul>\r\n<br>\r\n<a href=\"http://www.fourways.vdpgroup.co.za/pages/40435\">Sign Up to become a member</a>\r\n<br>\r\n<br>\r\n<div align = 'center;'><img border=\"0\" src=\"http://www.fourways.vdpgroup.co.za/img_upload_banners/7054_312044.jpg\" alt=\"Pulpit rock\" width=\"250\" height=\"300\"></div>", 
+      "exDate": "2013-10-17", 
+      "published": true, 
+      "slug": "dj-shugga", 
+      "location": "Tiger Tiger Fourways"
+   }
+},
+{
+   "pk": 8, 
+   "model": "blog.post", 
+   "fields": {
+      "description": " ", 
+      "title": "GIRLS JUST WANNA HAVE FUN", 
+      "created": "2013-10-14T08:31:40.230Z", 
+      "content": "Its going to be a Saucy Saturday as our favourite boys from PULSE return to strut their manly ASSets for all you naughty girls to enjoy! <br>\r\nAfter all...girls just wanna have fun! :)<br>\r\nShow starts at 9pm!<br>\r\n<br>\r\nGents, the upstairs VIP lounge will be open for you stocked with cold beer and warm bar ladies!<br>\r\n<br>\r\n\r\n<ul>\r\n<li>FREE entry for everyone before 10pm</li>\r\n<li>First 100 ladies receive a complimentary drink on arrival</li>\r\n<li>R10 spirit and mix from 8pm -10pm</li>\r\n<li>R10 shooter special 8pm \u2013 midnight</li>\r\n<li>Girls over 19 and Gents over 20</li>\r\n</ul>\r\n\r\n<img border=\"0\" src=\"http://www.fourways.vdpgroup.co.za/SizedPics/tigertigerevents422250.jpg\" alt=\"Pulpit rock\" width=\"250\" height=\"300\">", 
+      "exDate": "2013-10-19", 
+      "published": true, 
+      "slug": "girls-just-wanna-have-fun", 
+      "location": "Tiger Tiger Fourways"
+   }
+},
+{
+   "pk": 9, 
+   "model": "blog.post", 
+   "fields": {
+      "description": " ", 
+      "title": "BALLOON BINGE", 
+      "created": "2013-10-14T08:41:12.963Z", 
+      "content": "This SPECTACULAR event has never been done at Tiger Tiger Fourways before!<br>\r\nWe are talking loads of balloons, loads of excitement and LOADS OF PRIZES!<br>\r\n<br>\r\n\r\n<ul>\r\n<li>R25 000 bar tab for all our members</li>\r\n<li>Doors open at 8pm</li>\r\n<li>Girls over 18 and Gents over 19</li>\r\n<li>FREE entry before 10pm for all members</li>\r\n<li>Non members R50 entry all night</li>\r\n</ul>\r\n<br>\r\n<a href=\"http://www.fourways.vdpgroup.co.za/pages/40435\">Sign Up to become a member</a><br>\r\n<br>\r\n\r\n<img border=\"0\" src=\"http://www.fourways.vdpgroup.co.za/SizedPics/tigertigerevents422291.jpg\" alt=\"Pulpit rock\" width=\"250\" height=\"300\">", 
+      "exDate": "2013-10-24", 
+      "published": true, 
+      "slug": "balloon-binge", 
+      "location": "Tiger Tiger Fourways"
+   }
+},
+{
+   "pk": 10, 
+   "model": "blog.post", 
+   "fields": {
+      "description": "SAEvents.biz presents the Zombie Apocalypse powered by 5FM!!!", 
+      "title": "HALLOWEEN ZOMBIE APOCOLYPSE", 
+      "created": "2013-10-14T08:49:55.196Z", 
+      "content": "\r\n  \r\nA first in Halloween celebrations where looking alive is so last season! Make sure you dress to the zombie nines in order to fit in with the undead and don\u2019t get bitten! <br>\r\nThe deadliest parties with your favourite 5FM DJ\u2019s will be looking for blood at Tiger Tiger\u2019s in Fourways, Pretoria, Cape Town and Durban.<br>\r\n<br>\r\nExperience the Zombie Flash mob, VIZ attack free zone, diary of the dead photo wall, button badge collection contest and 5FM \u2018brain\u2019 birthday cupcakes for your indulgence.  <br>\r\nShow us your \u2018Thriller\u2019 dance moves and stand in line to win massive prizes on the night. <br>\r\n<br>\r\nClubbers can test their skills with the latest zombie games in the zombie gaming area! <br>\r\n<br>\r\nJoin 5fm DJs FRESH and POPPY as the rip up the decks in a freakish way!<br>\r\n<br>\r\nVIZ (Very Important Zombie): <br>\r\n<br>\r\nIf you need a break from the growls and moans from our attackers, the VIZ area will be a \u2018Zombie attack free zone\u2019. The zone will be patrolled by \u2018sexy Zombie slayers\u2019 to prevent attacks.<br> \r\nVIZ Zombies will be fed \u2018brains\u2019 and \u2018blood shots\u2019 to keep the hunger at bay!<br>\r\n<br>\r\nJoin us on the 31st of October as the urban legend of the zombie comes to life in this epic Halloween showdown\u2026 <br>\r\n<br>\r\nTicket Prices: <br>\r\n<br>\r\nGeneral Access: from R60 and VIZ R140.<br>\r\n<br>\r\nPre-sale tickets available at www.computicket.com<br>\r\n<br>\r\nRules of Entry:<br>\r\n<br>\r\n<ul>\r\n<li>Girls 18 and older, Gents 18 and older</li>\r\n<li>Dress code is smart for Gents (collared shirt and smart shoes) or FULL OUT ZOMBIE!</li>\r\n</ul>\r\n\r\n\r\n<img border=\"0\" src=\"http://www.fourways.vdpgroup.co.za/SizedPics/tigertigerevents422487.jpg\" alt=\"Pulpit rock\" width=\"250\" height=\"300\">", 
+      "exDate": "2013-10-31", 
+      "published": true, 
+      "slug": "halloween-zombie-apocolypse", 
+      "location": "Tiger Tiger Fourways"
+   }
+},
+{
+   "pk": 11, 
+   "model": "blog.post", 
+   "fields": {
+      "description": " ", 
+      "title": "CLUB CLASSICS VOL. 1 CD LAUNCH", 
+      "created": "2013-10-14T08:53:57.218Z", 
+      "content": "This Saturday night, Club Classics Volume one CD launch with one of South Africas most successful \r\nand talented dance DJ, (with over 20 years\u2019 experience)  DJ DIZZY!<br>\r\nA night with remixed old school dance classics which will leave your dancing shoes begging for more!<br>\r\n<br>\r\n\r\n<ul>\r\n<li>Doors open 8pm</li>\r\n<li>Girls over 19 and Gents over 20</li>\r\n<li>R10 spirit and mix from 8pm -10pm</li>\r\n<li>R10 shooter special 8pm \u2013 midnight</li>\r\n</ul>\r\n<br><br>\r\n<img border=\"0\" src=\"http://www.fourways.vdpgroup.co.za/SizedPics/tigertigerevents422290.jpg\" alt=\"Pulpit rock\" width=\"250\" height=\"300\">", 
+      "exDate": "2013-11-23", 
+      "published": true, 
+      "slug": "club-classics-vol-1-cd-launch", 
+      "location": "Tiger Tiger Fourways"
+   }
+},
+{
+   "pk": 12, 
+   "model": "blog.post", 
+   "fields": {
+      "description": " ", 
+      "title": "I AM HARDWELL SA TOUR", 
+      "created": "2013-10-14T09:42:14.923Z", 
+      "content": "Electric Music, the team behind Summer 2012/13`s biggest parties (Swedish House Mafia, Skrillex and more), made the first of a few massive announcements pertaining to their planned summer 2013/14 calendar last week; that they`ll be bringing the I AM HARDWELLtour to South Africa in December. Get ready to dive deep on a solo event showcasing the talent and vision of Hardwell. A journey into the mind of a full-blooded DJ Superstar, bringing together all of his ideas, from artwork to visuals to his very own take on EDM. An ambitious world tour with the big room phenomenon behind the wheels. Mister Spacemanis about to take the crowds to another level, join him and discover what Hardwell is really about.<br>\r\n<br>\r\nFor more information, check out his <a href=\"http://www.iamhardwell.nl/biography/\">Official Bio </a><br>\r\n<br>\r\n<ul>\r\n<li>Doors open: 12h00</li>\r\n<li>Normal Entry: R470.00</li>\r\n<li>VIP: R625.00</li>\r\n<li>V VIP: R1 540.00</li>\r\n<li>No under 18s</li>\r\n<br>\r\n<a href=\"http://online.computicket.com/web/event/i_am_hardwell_sa_tour/763223785/391121255/\">Tickets Available From Computicket</a><br>\r\n<br>\r\n\r\n\r\n<img border=\"0\" src=\"http://www.google.com/imgres?q=hardwell+sa+tour&client=safari&sa=X&rls=en&biw=1279&bih=664&tbm=isch&tbnid=ITykR3N8ur9NuM:&imgrefurl=http://fluxmag.com/entertainment/hardwell-is-heading-to-south-africa/&docid=4JJ0N3CotINRjM&imgurl=http://fluxmag.com/wp-content/uploads/2013/07/iamhardwell-590x461.jpg&w=590&h=461&ei=DbtbUpvFPIuqhAf5n4D4Cg&zoom=1&ved=1t:3588,r:1,s:0,i:84&iact=rc&page=1&tbnh=178&tbnw=212&start=0&ndsp=15&tx=112&ty=68\" alt=\"Pulpit rock\" width=\"250\" height=\"300\">", 
+      "exDate": "2013-12-07", 
+      "published": true, 
+      "slug": "i-am-hardwell-sa-tour", 
+      "location": "Wild Waters, Boksburg, Johannesburg And Reef - Gauteng"
+   }
+},
+{
+   "pk": 1, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_permission", 
+      "name": "Can add permission", 
+      "content_type": 1
+   }
+},
+{
+   "pk": 2, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_permission", 
+      "name": "Can change permission", 
+      "content_type": 1
+   }
+},
+{
+   "pk": 3, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_permission", 
+      "name": "Can delete permission", 
+      "content_type": 1
+   }
+},
+{
+   "pk": 4, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_group", 
+      "name": "Can add group", 
+      "content_type": 2
+   }
+},
+{
+   "pk": 5, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_group", 
+      "name": "Can change group", 
+      "content_type": 2
+   }
+},
+{
+   "pk": 6, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_group", 
+      "name": "Can delete group", 
+      "content_type": 2
+   }
+},
+{
+   "pk": 7, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_user", 
+      "name": "Can add user", 
+      "content_type": 3
+   }
+},
+{
+   "pk": 8, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_user", 
+      "name": "Can change user", 
+      "content_type": 3
+   }
+},
+{
+   "pk": 9, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_user", 
+      "name": "Can delete user", 
+      "content_type": 3
+   }
+},
+{
+   "pk": 10, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_contenttype", 
+      "name": "Can add content type", 
+      "content_type": 4
+   }
+},
+{
+   "pk": 11, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_contenttype", 
+      "name": "Can change content type", 
+      "content_type": 4
+   }
+},
+{
+   "pk": 12, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_contenttype", 
+      "name": "Can delete content type", 
+      "content_type": 4
+   }
+},
+{
+   "pk": 13, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_session", 
+      "name": "Can add session", 
+      "content_type": 5
+   }
+},
+{
+   "pk": 14, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_session", 
+      "name": "Can change session", 
+      "content_type": 5
+   }
+},
+{
+   "pk": 15, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_session", 
+      "name": "Can delete session", 
+      "content_type": 5
+   }
+},
+{
+   "pk": 16, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_site", 
+      "name": "Can add site", 
+      "content_type": 6
+   }
+},
+{
+   "pk": 17, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_site", 
+      "name": "Can change site", 
+      "content_type": 6
+   }
+},
+{
+   "pk": 18, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_site", 
+      "name": "Can delete site", 
+      "content_type": 6
+   }
+},
+{
+   "pk": 19, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_logentry", 
+      "name": "Can add log entry", 
+      "content_type": 7
+   }
+},
+{
+   "pk": 20, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_logentry", 
+      "name": "Can change log entry", 
+      "content_type": 7
+   }
+},
+{
+   "pk": 21, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_logentry", 
+      "name": "Can delete log entry", 
+      "content_type": 7
+   }
+},
+{
+   "pk": 22, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "add_post", 
+      "name": "Can add post", 
+      "content_type": 8
+   }
+},
+{
+   "pk": 23, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "change_post", 
+      "name": "Can change post", 
+      "content_type": 8
+   }
+},
+{
+   "pk": 24, 
+   "model": "auth.permission", 
+   "fields": {
+      "codename": "delete_post", 
+      "name": "Can delete post", 
+      "content_type": 8
+   }
+},
+{
+   "pk": 1, 
+   "model": "auth.user", 
+   "fields": {
+      "username": "Adrian", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2013-10-10T15:36:51.696Z", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "pbkdf2_sha256$10000$S2SUCqjqinyu$uSxvHKNKrqhMvJ5BE9qKzdK7LHQH0hG2Oeouw0ANLgc=", 
+      "email": "adrianjbhughes@gmail.com", 
+      "date_joined": "2013-10-10T15:36:39.104Z"
+   }
+},
+{
+   "pk": 1, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-10T15:38:19.778Z", 
+      "object_repr": "Post object", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 2, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-10T15:38:45.063Z", 
+      "object_repr": "Post object", 
+      "object_id": "1", 
+      "change_message": "Changed description.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 3, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-10T15:51:29.006Z", 
+      "object_repr": "Post object", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 4, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-10T15:51:55.774Z", 
+      "object_repr": "Post object", 
+      "object_id": "2", 
+      "change_message": "Changed location.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 5, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-10T15:52:57.724Z", 
+      "object_repr": "Post object", 
+      "object_id": "2", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 6, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-10T16:18:43.956Z", 
+      "object_repr": "Post object", 
+      "object_id": "1", 
+      "change_message": "Changed exDate.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 7, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-10T16:20:28.423Z", 
+      "object_repr": "Post object", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 8, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-10T16:48:46.176Z", 
+      "object_repr": "Post object", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 9, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-10T17:36:43.686Z", 
+      "object_repr": "Post object", 
+      "object_id": "5", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 10, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-10T17:38:43.582Z", 
+      "object_repr": "Post object", 
+      "object_id": "2", 
+      "change_message": "Changed location.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 11, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-13T17:08:51.118Z", 
+      "object_repr": "Post object", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 12, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T06:59:33.030Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 13, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T06:59:59.648Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 14, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T07:00:41.686Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 15, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T07:07:07.126Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed title, location, exDate and content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 16, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:17:00.141Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 17, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:19:06.541Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 18, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:19:22.620Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 19, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:19:40.380Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 20, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:21:17.596Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 21, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:21:55.851Z", 
+      "object_repr": "Post object", 
+      "object_id": "6", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 22, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:21:55.854Z", 
+      "object_repr": "Post object", 
+      "object_id": "4", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 23, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:21:55.856Z", 
+      "object_repr": "Post object", 
+      "object_id": "3", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 24, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:21:55.858Z", 
+      "object_repr": "Post object", 
+      "object_id": "2", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 25, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:21:55.860Z", 
+      "object_repr": "Post object", 
+      "object_id": "1", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 26, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T08:26:56.288Z", 
+      "object_repr": "Post object", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 27, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 3, 
+      "action_time": "2013-10-14T08:28:59.088Z", 
+      "object_repr": "Post object", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 28, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T08:31:40.238Z", 
+      "object_repr": "Post object", 
+      "object_id": "8", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 29, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:31:58.971Z", 
+      "object_repr": "Post object", 
+      "object_id": "8", 
+      "change_message": "Changed location.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 30, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:35:46.530Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 31, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:36:11.740Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 32, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:36:33.083Z", 
+      "object_repr": "Post object", 
+      "object_id": "7", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 33, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T08:41:12.964Z", 
+      "object_repr": "Post object", 
+      "object_id": "9", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 34, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 2, 
+      "action_time": "2013-10-14T08:45:01.558Z", 
+      "object_repr": "Post object", 
+      "object_id": "9", 
+      "change_message": "Changed content.", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 35, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T08:49:55.200Z", 
+      "object_repr": "Post object", 
+      "object_id": "10", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 36, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T08:53:57.225Z", 
+      "object_repr": "Post object", 
+      "object_id": "11", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+},
+{
+   "pk": 37, 
+   "model": "admin.logentry", 
+   "fields": {
+      "action_flag": 1, 
+      "action_time": "2013-10-14T09:42:14.936Z", 
+      "object_repr": "Post object", 
+      "object_id": "12", 
+      "change_message": "", 
+      "user": 1, 
+      "content_type": 8
+   }
+}
+]
