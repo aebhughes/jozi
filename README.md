@@ -9,9 +9,9 @@ Workflow
 Until you are used to using git, follow this workflow:
 
 - `cd python/django/jozi`
-- 'source bin/activate'
-- 'git fetch'.  It will ask for your userid and password
-- 'git pull'. userid and password again.
+- `source bin/activate`
+- `git fetch`.  It will ask for your userid and password
+- `git pull`. userid and password again.
 - Before you change anything, `git checkout -b <some-name>`
 - Change, delete, add files to your heart's content.
 - Whenever you feel that the current set of changes are OK:
@@ -23,11 +23,11 @@ Until you are used to using git, follow this workflow:
   
 - To release the code:
 
-  + `git checkout master'
+  + `git checkout master`
   + `git merge <some-name>` as above
-  + 'git branch -d <some-name>
+  + `git branch -d <some-name>`
   
 - If you would rather thraw-away your changes because they turned out to be a disaster:
 
-  + 'git checkout master'
-  + 'git branch -D <some-name>`
+  + `git checkout master`
+  + `git branch -D <some-name>`
