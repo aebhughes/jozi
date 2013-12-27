@@ -1,0 +1,67 @@
+body{
+	background: white url("tiger17oct.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	margin-left: 16px ;
+	padding: 0;
+	font-size: 18px; 
+	line-height: 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div.content{
+	background: rgb(54, 25, 25);
+	background: rgba(54, 25, 25, .7);
+	border: 0px solid  (54, 25, 25, .3);
+	background-color: ;
+	color: white;
+	max-width: 600px ;
+	width: 96% ;
+	padding: 2% ;
+	margin: 80px auto;
+}
+a:link {color:yellow;}
+a:visited {color:#DF7401;}
+a:hover {color:#2EFE2E;}
+H1 { text-align: center }
+h2 { text-align: left }
+h4 { text-margin: 346px }
+h5 { text-align: left }
+p { text-align: left }
+ul,li { text-align: left }
+article { text-align: left }
+
+tooltip
+{
+display: inline;
+position: relative;
+}
+tooltip:hover:before
+{
+border: solid;
+border-color: #333 transparent;
+border-width: 6px 6px 0 6px;
+bottom: 20px;
+content: "content test";
+left: 50%;
+position: absolute;
+z-index: 99;
+}
+tooltip:hover:after
+{
+background: #333;
+background: rgba(25, 25, 25, .8);
+border-radius: 5px;
+bottom: 26px;
+color: #fff;
+content: attr(title);
+left: 20%;
+padding: 5px 15px;
+position: absolute;
+z-index: 98;
+width: 220px;
+content: attr(title);
+}
