@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/adrianhughes/python/django/jozi/bin
 import os
 import sys
 

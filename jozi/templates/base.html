@@ -6,18 +6,21 @@
 	<head>
 	<!--	<h4 style="text-align:right;"><font color="white">
 			<p id="demo">         </h4> -->
-		<script>
-			var myVar=setInterval(function(){myTimer()},1000);
+        <script type="text/javascript">
+            <!--
+            //-->
+    //-->
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46690201-1']);
+            _gaq.push(['_trackPageview']);
 
-			function myTimer()
-			{
-			var d=new Date();
-			var o=d.toLocaleDateString();
-			var t=d.toLocaleTimeString();
-			var r="";
-			document.getElementById("demo").innerHTML=t;
-			}
-		</script>	
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
 				<meta charset="utf-8">
 		<title>
 			{% block title %}{% endblock %}
