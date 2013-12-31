@@ -4,5 +4,11 @@ include/
 lib/
 .Python
 *.pyc
+*~
+bin/
+local/
+include/
+lib/
+.Python
 *.swp
-jozi.db
+*.swo

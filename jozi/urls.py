@@ -9,6 +9,7 @@ urlpatterns = patterns('',
     url(r'^$', 'blog.views.index'),
     url(r'^(?P<slug>[\w\-]+)/$', 'blog.views.post'),
 
+
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

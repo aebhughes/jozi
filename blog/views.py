@@ -15,3 +15,4 @@ def post(request, slug):
 	# now return the rendered template
 	return render(request, 'blog/post.html', {'post':post})
 
+
