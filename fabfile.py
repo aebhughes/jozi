@@ -9,8 +9,8 @@ def deploy():
     '''
     Live deploy to the server
     '''
-    local('tar -cvjf jozi.tar.tbz -X exclude.txt ../jozi/')
-    put('jozi.tar.tbz', '/srv/')
+    local('tar -cvzf jozi.tbz -X exclude.txt ../jozi/')
+    put('jozi.tbz', '/srv/')
     run('rm -rf /srv/jozi/')
     with cd('/srv/'):
         run('tar -xvjf jozi.tar.tbz')
@@ -27,7 +27,7 @@ def deploy():
 
 def backup_data():
     rundate = date.strftime(date.today(), '%Y%m%d')
-    with cd('/srv/pnsa_suites/'):
+    with cd('/srv/jozi/'):
         run('pip install -r requirements.txt')
         run('./manage.py dumpdata --indent=3 > backup.{}'.format(rundate))
         run('tar -cjf backup.{0}.tbz backup.{0}'.format(rundate))
@@ -40,30 +40,10 @@ def reconfig():
     Automates web-server configuration changes
     ==========================================
 
-    Copies up pnsa_suites.nginx -> nginx dir and restarts nginx
-    Copies up pnsa_suites.conf -> supervisor dir and restarts supervisor
+    Copies up jozi.nginx -> nginx dir and restarts nginx
+    Copies up jozi.conf -> supervisor dir and restarts supervisor
     '''
-    put('pnsa_suites.nginx', '/etc/nginx/sites-available/pnsa_suites')
+    put('jozi.nginx', '/etc/nginx/sites-available/jozi')
     sudo('service nginx restart')
-    put('pnsa_suites.conf', '/etc/supervisor/conf.d/pnsa_suites.conf')
-    sudo('supervisorctl restart pnsa_suites')
-
-def deploy2test():
-    '''
-    Deploys to local /srv/ dir.  The local machine must be configured
-    as live
-    '''
-    local('sudo rm -rf /srv/pnsa_suites/')
-    local('tar -cvjf pnsa_suites.tar.gz -X exclude.txt ../pnsa_suites/')
-    local('sudo mv pnsa_suites.tar.gz /srv/')
-    with lcd('/srv/'):
-        local('sudo tar -xvjf pnsa_suites.tar.gz')
-        local('sudo virtualenv pnsa_suites')
-    with lcd('/srv/pnsa_suites/'):
-        local('/bin/bash -l -c "source bin/activate"')
-        local('sudo pip install -r requirements.txt')
-        local('sudo mv gunicorn_start.bash bin/')
-        local('sudo mv suites/prod_settings.py suites/settings.py')
-    local('sudo service nginx restart')
-    local('sudo supervisorctl restart pnsa_suites')
-
+    put('jozi.conf', '/etc/supervisor/conf.d/jozi.conf')
+    sudo('supervisorctl restart jozi')
