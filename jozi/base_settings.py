@@ -3,6 +3,7 @@ import os.path
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+ROOT_PATH = os.path.dirname(__file__)
 
 ADMINS = (
     # ('Adrian Hughes', 'adrianjbhughes@gmail.com'),
@@ -12,8 +13,8 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': ' os.path.join(os.path.dirname(__file__), jozi.db)',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(ROOT_PATH, 'jozi.db'),
 	}
 }
 
