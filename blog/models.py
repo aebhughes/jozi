@@ -19,5 +19,3 @@ def __unicode__(self):
 
 def get_absolute_url(self):
 	return reverse('blog.views.post',args = [self.slug])
-
-# Create your models here.
