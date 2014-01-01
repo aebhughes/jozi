@@ -13,9 +13,10 @@ def deploy():
     put('jozi.tbz', '/srv/')
     run('rm -rf /srv/jozi/')
     with cd('/srv/'):
-        run('tar -xvjf jozi.tar.tbz')
-        run('rm jozi.tar.tbz')
+        run('tar -xvzf jozi.tbz')
+        run('rm jozi.tbz')
         run('virtualenv jozi')
+        run('mkdir /srv/jozi/log/')
     with cd('/srv/jozi/'):
         run('/bin/bash -l -c "source bin/activate"')
         run('pip install -r requirements.txt')

@@ -3,7 +3,6 @@ import os.path
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-ROOT_PATH = os.path.dirname(__file__)
 
 ADMINS = (
     # ('Adrian Hughes', 'adrianjbhughes@gmail.com'),
@@ -11,17 +10,6 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-DATABASES = {
-    'default': {
-<<<<<<< HEAD
-        'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'jozi.db',
-=======
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(ROOT_PATH, 'jozi.db'),
->>>>>>> 30f9c45a9c4aea4e6ed46048f1537d000f93e207
-	}
-}
 
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts

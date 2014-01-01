@@ -15,4 +15,6 @@ DATABASES = {
         'PORT': '',
 	}
 }
+
 TIME_ZONE = 'Africa/Johannesburg'
+

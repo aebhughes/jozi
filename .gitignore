@@ -12,3 +12,5 @@ lib/
 .Python
 *.swp
 *.swo
+*.db
+
