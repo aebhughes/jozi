@@ -6,7 +6,7 @@ upstream jozi_app {
     server {
 
         listen  80;
-        server_name jozi.customsoftuk.com;
+        server_name jozi.co.za www.jozi.co.za;
 
         client_max_body_size 4G;
 
@@ -22,7 +22,7 @@ upstream jozi_app {
             proxy_set_header Host $http_host;
             proxy_redirect off;
             if (!-f $request_filename) {
-                proxy_pass http://pnsa_quotes_app;
+                proxy_pass http://jozi_app;
                 break;
             }
     }
