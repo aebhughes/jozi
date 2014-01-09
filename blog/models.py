@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce.models import HTMLField
 from django.core.urlresolvers import reverse
 
 class Post(models.Model):
@@ -7,7 +8,7 @@ class Post(models.Model):
 	exDate = models.DateField()
 	slug = models.SlugField(unique = True, max_length = 255)
 	description = models.CharField(max_length = 255)
-	content = models.TextField(default='<img border="0" src="" alt="Pulpit rock" width="250" height="300">')
+	content = HTMLField()
 	published = models.BooleanField(default = True)
 	created = models.DateTimeField(auto_now_add = True)
 
