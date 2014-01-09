@@ -1,0 +1,29 @@
+upstream jozi_app {
+
+    server unix:/srv/jozi/run/gunicorn.sock fail_timeout=0;
+    }
+
+    server {
+
+        listen  80;
+        server_name jozi.customsoftuk.com;
+
+        client_max_body_size 4G;
+
+        access_log /srv/jozi/log/nginx-access.log;
+        error_log /srv/jozi/log/nginx-error.log;
+
+        location /static/ {
+            alias /srv/jozi/jozi/static/;
+        }
+
+        location / {
+            proxy_set_header X-Forwarded_For $proxy_add_x_forwarded_for;
+            proxy_set_header Host $http_host;
+            proxy_redirect off;
+            if (!-f $request_filename) {
+                proxy_pass http://pnsa_quotes_app;
+                break;
+            }
+    }
+}

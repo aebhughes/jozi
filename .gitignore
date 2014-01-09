@@ -1,10 +1,14 @@
-*.pyc
-*~
 bin/
+blog/
 local/
 include/
 lib/
 .Python
+*.pyc
+*~
+.Python
 *.swp
 *.swo
-jozi.db
+*.db
+*.json
+*.tbz
